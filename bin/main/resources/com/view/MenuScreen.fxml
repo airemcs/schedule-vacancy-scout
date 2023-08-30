@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="480.0" minWidth="854.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.controller.TitleController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="480.0" minWidth="854.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.controller.MenuController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#352f44" height="486.0" layoutX="-3.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="860.0" />
       <Group layoutX="14.0" layoutY="14.0">
@@ -25,7 +25,7 @@
                   <Font name="Candara" size="24.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
+            <Button mnemonicParsing="false" onAction="#transitionAddScreen" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
          </children>
       </Group>
       <Group layoutX="14.0" layoutY="98.0">
@@ -40,7 +40,7 @@
                   <Font name="Candara" size="24.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
+            <Button mnemonicParsing="false" onAction="#transitionRemoveScreen" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
          </children>
       </Group>
       <Group layoutX="14.0" layoutY="182.0">
@@ -55,7 +55,7 @@
                   <Font name="Candara" size="24.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
+            <Button mnemonicParsing="false" onAction="#transitionAnalyzeScreen" opacity="0.0" prefHeight="74.0" prefWidth="280.0" />
          </children>
       </Group>
       <Group layoutX="14.0" layoutY="267.0">
