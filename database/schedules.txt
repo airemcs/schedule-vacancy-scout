@@ -1,0 +1,8 @@
+Airelle Maagma
+MH 915
+MH 1100
+TF 1430
+TF 1615
+WS 915
+WS 1100
+WS 1300+
